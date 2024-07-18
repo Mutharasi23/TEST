@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Buses</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Search Buses</h2>
+        <form action="SearchServlet" method="post">
+            <label for="origin">From:<br></label>
+            <input type="text" id="From" name="From" placeholder="From"><br><br>
+
+            <label for="destination">To:<br></label>
+            <input type="text" id="destination" name="destination" placeholder="To"><br><br>
+
+            <label for="date">Date of Travel:</label>
+            <input type="date" id="date" name="date" placeholder="Date of travel"><br><br>
+</form>
+            <button onclick="location.href='Booking page.html'">Search</button>
+        
+    </div>
+</body>
+</html>
